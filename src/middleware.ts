@@ -1,10 +1,10 @@
-import { NextRequest } from "next/server";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { wibuMiddleware } from "wibu";
 import { wibuConfig } from "./lib/wibu_config";
 const WIBU_ENCODED_KEY = process.env.WIBU_ENCODED_KEY!;
 console.log(WIBU_ENCODED_KEY, "WIBU_ENCODED_KEY");
 
-export const middleware = (req: NextRequest) =>
+export const middleware = (req: any) =>
   wibuMiddleware({
     req,
     config: {
