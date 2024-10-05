@@ -5,9 +5,9 @@ import "@mantine/notifications/styles.css";
 
 import {
   ColorSchemeScript,
-  MantineProvider,
-  Notification
+  MantineProvider
 } from "@mantine/core";
+import { Notifications } from "@mantine/notifications";
 
 export const metadata = {
   title: "My Mantine app",
@@ -26,7 +26,7 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider defaultColorScheme="dark">
-          <Notification />
+          <Notifications />
           {children}
         </MantineProvider>
       </body>
