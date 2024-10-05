@@ -4905,23 +4905,21 @@ which@^2.0.1:
     isexe "^2.0.0"
 
 wibu@bipproduction/wibu:
-  version "0.1.8"
-  resolved "https://codeload.github.com/bipproduction/wibu/tar.gz/b3c1f1f1167fec0cc92733334a11d3a924d00855"
+  version "0.1.9"
+  resolved "https://codeload.github.com/bipproduction/wibu/tar.gz/83a6773ff0ae19816c5223de2132455e8f7e034d"
   dependencies:
     "@google/generative-ai" "^0.19.0"
+    "@octokit/core" "^6.1.2"
     "@supabase/supabase-js" "^2.45.4"
-    "@types/cli-progress" "^3.11.6"
     "@types/crypto-js" "^4.2.2"
     "@types/lodash" "^4.17.7"
-    "@types/yargs" "^17.0.33"
     app-root-path "^3.1.0"
-    cli-progress "^3.12.0"
     crypto-js "^4.2.0"
+    dedent "^1.5.3"
     dotenv "^16.4.5"
     gpt-3-encoder "^1.1.4"
-    javascript-obfuscator "^4.1.1"
     jose "^5.9.2"
-    js-confuser "^1.7.3"
+    json-to-ts "^2.1.0"
     loading-cli "^1.1.2"
     lodash "^4.17.21"
     next "^14.2.13"
@@ -4930,9 +4928,7 @@ wibu@bipproduction/wibu:
     react "^18.3.1"
     react-dom "^18.3.1"
     readdirp "^4.0.1"
-    terser "^5.33.0"
     typescript "^5.6.2"
-    yargs "^17.7.2"
 
 word-wrap@^1.2.5:
   version "1.2.5"
