@@ -18,7 +18,6 @@ const token = "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImlkIjoiY20xZ290ZjJtMDAwMDQ4dTk4
   });
 
 
-  
   console.log(res.status);
   console.log(await res.text());
 })();
