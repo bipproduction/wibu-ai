@@ -10,6 +10,7 @@ export const apies = {
   "/api/tiny-llama": "/api/tiny-llama",
   "/api/tiny-dolphin": "/api/tiny-dolphin",
   "/api/stream": "/api/stream",
+  "/api/logout": "/api/logout",
   "/api/login/[phone]": ({ phone }: { phone: string }) => `/api/login/${phone}`,
   "/api/login/[phone]/verify/[code]": ({
     phone,
