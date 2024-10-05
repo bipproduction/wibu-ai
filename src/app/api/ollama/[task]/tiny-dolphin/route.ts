@@ -10,6 +10,7 @@ export async function POST(
     const result = await aiHandler("tinydolphin", params.task, data);
     return new Response(result);
   } catch (error) {
+    console.log(error);
     return new Response(JSON.stringify(error), { status: 500 });
   }
 }
